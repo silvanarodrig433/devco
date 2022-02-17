@@ -1,0 +1,19 @@
+{
+  "name": "hello-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.665.0",
+    "aws-sdk-mock": "^5.1.0",
+    "jest": "^26.0.1",
+    "serverless": "^1.68.0",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^6.1.4"
+  },
+  "scripts": {
+    "test:coverage": "jest --coverage --collectCoverageFrom=api/**"
+  },
+  "author": "",
+  "license": "ISC"
+}
